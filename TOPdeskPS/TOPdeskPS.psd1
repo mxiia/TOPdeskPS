@@ -121,6 +121,7 @@
         'Remove-TdAssetAssignment'
         'Remove-TdAssetFile'
         'Remove-TdAssetLink'
+        'Remove-TdBranchFilter'
         'Send-TdAssetFile'
         'Send-TdIncidentfile'
         'Send-TdTaskNotification'
@@ -128,6 +129,7 @@
         'Set-TdAsset'
         'Set-TdAssetCapability'
         'Set-TdAssetLink'
+        'Set-TdBranchFilter'
         'Set-TdPerson'
         'Update-TdIncident'
     )
