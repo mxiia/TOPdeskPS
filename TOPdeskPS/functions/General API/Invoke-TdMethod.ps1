@@ -1,5 +1,5 @@
 ﻿function Invoke-TdMethod {
-<#
+    <#
 	.SYNOPSIS
 		internal wrapper for Invoke-RestMethod
 
@@ -33,6 +33,7 @@
         [system.string]
         $ContentType = 'application/json',
 
+        [Parameter(Mandatory = $true, Position = 0)]
         [uri]
         $Uri,
 
@@ -66,10 +67,10 @@
             }
         }
         $Params = @{
-            'Body'        = $Body
-            'Method'      = $Method
-            'Uri'         = $Uri
-            'Headers'     = $Headers
+            'Body' = $Body
+            'Method' = $Method
+            'Uri' = $Uri
+            'Headers' = $Headers
             'ContentType' = $ContentType
         }
         Write-PSFMessage -Level InternalComment -Message "Params to be bassed to IRM: $($params.Keys -join ",")"

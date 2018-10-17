@@ -83,6 +83,7 @@
         'Get-TdAssetTemplate'
         'Get-TdAssetTemplateBlank'
         'Get-TdBranch'
+        'Get-TdBranchFilter'
         'Get-TdBudgetHolder'
         'Get-TdCallType'
         'Get-TdCategory'
